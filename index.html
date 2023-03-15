@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div class="container">
+    <form class="singUp ">
+        <p class="header">Please sing up</p>
+        <input type="text" name="" id="First-name" placeholder="First name">
+        <input type="text" name="" id="Last-name" placeholder="Last name">
+        <input type="email" name="" id="Email" placeholder="Email address">
+        <input type="password" name="" id="Password" placeholder="Password">
+        <p class="error-sing-up hide-op">This email is already exist</p>
+        <input type="button" value="Sing Up" id="sing-up">
+        <p class="in logIn">Sing in now</p>
+    </form>
+    <form class="singIn hide">
+        <p class="header">Please sing in</p>
+        <input type="email" name="" id="Email-address" placeholder="Email address">
+        <input type="password" name="" id="Pass" placeholder="Password">
+        <p class="error-log-in hide-op">LocalStorage is empty</p>
+        <input type="button" value="Sing In" id="sing-in">
+        <p class="in return-sing-up">Sing up now</p>
+    </form>
+    <div class="profile hide">
+        <div class="profile-info">
+            <div class="profile-image"></div>
+            <div class="profile-name">
+                <p class="profile-first-name"></p>
+                <p class="profile-last-name"></p>
+            </div>
+            <p class="profile-email"></p>
+            <p>Designer & Web Developing</p>
+        </div>
+        <input type="button" value="Sing Up" id="sing-up-home" >
+
+    </div>
+</div>
+
+    <script src="./jquery-3.6.3.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
